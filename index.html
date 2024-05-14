@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rxfxxh</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Great+Vibes">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=comic+sans">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Pet Shop do Rafinha</h1>
+
+        <img src="https://www.creativefabrica.com/wp-content/uploads/2021/04/10/Pet-shop-animals-logo-template-Graphics-10636979-1-1-580x386.png" alt="logo">
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h2>Ofertas Especiais</h2>
+            <p>Confira nossas ofertas especiais nesta semana:</p>
+            <ul>
+                <li>Ração premium com desconto</li>
+                <li>Banho e tosa completo com 10% off</li>
+                <li>Brinquedos em promoção</li>
+            </ul>
+        </aside>
+
+        <section id="home">
+            <h2>Bem-vindo ao Pet Shop Do Rafinha</h2>
+            <p>Seu parceiro confiável para todos os produtos e serviços para seus animais de estimação.</p>
+            <img src="https://s3.nuvemvet.com/blog/wp-content/uploads/2021/12/16140553/produtos-1.jpg" alt="imagem1">
+        </section>
+        
+        <section id="fotos">
+            <img src="https://s3.nuvemvet.com/blog/wp-content/uploads/2021/09/08111323/pet-shop-como-organizar.jpg" alt="foto2">
+            <img src="https://contabilizarr.com.br/wp-content/uploads/sites/3/2020/02/contabilidade-para-pet-shop.jpg" alt="foto3">
+            <img src="" alt="foto4">
+        </section>
+
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <p>Oferecemos uma ampla gama de serviços para cuidar do seu animal de estimação:</p>
+            <ul>
+                <li>Banho e tosa; </li>
+                <li>Atendimento veterinário 24h; </li>
+                <li> Venda de acessórios (apenas na loja física);</li>
+                <li>Recreação - day care </li>
+                <li>Hotel.</li>
+            </ul>
+        </section>
+
+        <section id="info">
+            <h2>Sobre nossos serviços</h2>
+            <p>Aqui os bichinhos são tratados com o carinho e a atenção que eles merecem, e que no hotel o contato com a natureza é valorizado. Ele diz ter muitas fotos de animais, principalmente de cachorros e gatos. 
+                Aliás, no hotel só são aceitos cachorros, de todos os portes, e gatos.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p>Estamos aqui para responder suas perguntas e ajudar no que for preciso.</p>
+            <form action="enviar.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p> Pet Shop do Rafinha está localizado na Avenida João Paulo Ablas, 5000. </p>
+        <p>&copy; 2024 Meu Pet Shop. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
